@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{c2bec5dc-92cb-408e-918f-6ce47666da09}">
+		<property name="assetPath">
+			<value>OST/LIVELLO 1/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d7cb8a1c-f4b3-49c0-af81-7104ec77e5b8}</destination>
+		</relationship>
+	</object>
+</objects>
