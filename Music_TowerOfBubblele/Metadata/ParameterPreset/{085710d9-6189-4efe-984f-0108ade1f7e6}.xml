@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{085710d9-6189-4efe-984f-0108ade1f7e6}">
+		<property name="name">
+			<value>LVL</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ec58e5b0-dcd3-41a7-99bb-ecaa470e33eb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{750a98f3-7fd2-4f0c-a1fa-b80c2a11ea1b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{750a98f3-7fd2-4f0c-a1fa-b80c2a11ea1b}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
