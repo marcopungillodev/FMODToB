@@ -1259,7 +1259,7 @@
 	</object>
 	<object class="TransitionSourceSound" id="{cdca648e-6a2b-4fc8-8cdf-234c940a556f}">
 		<property name="length">
-			<value>0</value>
+			<value>17.454545454545453</value>
 		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{bf082179-b95d-4f05-bcb0-7b94cbfcd4c1}">
@@ -1285,7 +1285,7 @@
 	</object>
 	<object class="TransitionSourceSound" id="{41409acf-77f1-425b-9abd-c347a2af5da4}">
 		<property name="length">
-			<value>0</value>
+			<value>17.454545454545453</value>
 		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{6a65c0fb-f48d-40cc-821f-9f45d23dca4a}">
@@ -1298,7 +1298,7 @@
 	</object>
 	<object class="TransitionSourceSound" id="{041bce8e-9798-4863-a153-ee87575e4044}">
 		<property name="length">
-			<value>0</value>
+			<value>4.3636363636363633</value>
 		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{71087e7c-b7db-46aa-9538-325f694e7dd7}">
@@ -1311,7 +1311,7 @@
 	</object>
 	<object class="TransitionSourceSound" id="{fa57195a-e564-44ca-91a1-9a96e7ebcaf8}">
 		<property name="length">
-			<value>0</value>
+			<value>4.3636363636363633</value>
 		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{9230d65c-5313-4a32-bb52-de412b99963e}">
@@ -1336,11 +1336,8 @@
 		</property>
 	</object>
 	<object class="SnapshotModule" id="{bf53ab96-b8e9-4a77-b88e-11f3622c6137}">
-		<property name="start">
-			<value>17.45454974489796</value>
-		</property>
 		<property name="length">
-			<value>69.818185941043083</value>
+			<value>87.272735685941043</value>
 		</property>
 		<property name="delayType">
 			<value>0</value>
