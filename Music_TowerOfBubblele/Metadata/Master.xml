@@ -26,11 +26,7 @@
 			<value>2</value>
 		</property>
 	</object>
-	<object class="PitchShifterEffect" id="{0c3537e4-1baf-422c-8f26-3ec1c6bbd16a}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-	</object>
+	<object class="PitchShifterEffect" id="{0c3537e4-1baf-422c-8f26-3ec1c6bbd16a}" />
 	<object class="MixerBusFader" id="{fa67bbad-024d-41a4-aae8-049d8428abb9}" />
 	<object class="ThreeEQEffect" id="{345f2e10-7466-498b-b9eb-2050b1a2c954}" />
 </objects>
