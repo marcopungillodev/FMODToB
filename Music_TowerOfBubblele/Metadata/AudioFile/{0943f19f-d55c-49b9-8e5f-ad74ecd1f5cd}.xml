@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0943f19f-d55c-49b9-8e5f-ad74ecd1f5cd}">
+		<property name="assetPath">
+			<value>SFX/Jump/Jump_Player_13.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.53804988662131514</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d7cb8a1c-f4b3-49c0-af81-7104ec77e5b8}</destination>
+		</relationship>
+	</object>
+</objects>

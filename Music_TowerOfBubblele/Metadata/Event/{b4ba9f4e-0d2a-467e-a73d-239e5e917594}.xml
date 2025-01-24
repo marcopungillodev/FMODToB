@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b4ba9f4e-0d2a-467e-a73d-239e5e917594}">
 		<property name="name">
-			<value>SFX</value>
+			<value>Attack_Sbam</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{516597b7-3eb1-4998-954f-1739894a1c3d}</destination>
+			<destination>{4c1ec5e0-b4e4-4bdb-8e08-93439d451cdb}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{1cd2fc64-e734-4cbf-aa38-021876529db0}</destination>
@@ -59,11 +59,21 @@
 	<object class="EventAutomatableProperties" id="{79e90a09-db3b-420e-9f83-8d80643f2e5b}" />
 	<object class="MarkerTrack" id="{aed0087c-fbf5-47f7-ade2-6ab6f2870794}" />
 	<object class="GroupTrack" id="{81778850-c98d-4163-b1db-db7743a5c894}">
+		<relationship name="modules">
+			<destination>{441737f1-ba10-45d6-8c2d-7a0532950b18}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{74115362-ec41-4905-bf12-f349c5215049}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{0ce76987-f731-4283-9356-72f32948f176}" />
+	<object class="Timeline" id="{0ce76987-f731-4283-9356-72f32948f176}">
+		<relationship name="modules">
+			<destination>{441737f1-ba10-45d6-8c2d-7a0532950b18}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{4ed3a54e-c3da-4854-b080-241b77e05fad}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{82b57432-0f44-403f-a51e-46e0d7db82b8}">
 		<relationship name="effectChain">
 			<destination>{1b4934ab-7f2a-4d55-ac08-4eb427710378}</destination>
@@ -81,9 +91,21 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9fb31397-d109-448f-b428-eb7f5e7d1ec2}" />
+	<object class="MultiSound" id="{441737f1-ba10-45d6-8c2d-7a0532950b18}">
+		<property name="length">
+			<value>1.75</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{bc9ba21d-b193-4f39-b9ba-35a9cd23b60d}</destination>
+			<destination>{0dc09935-8d8e-4443-9791-1347f487ad5e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{74115362-ec41-4905-bf12-f349c5215049}">
 		<property name="name">
-			<value>SFX</value>
+			<value>Attack</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{55ac0fc9-e3a5-4091-ac1c-b48e6953c19c}</destination>
@@ -95,6 +117,20 @@
 			<destination>{82b57432-0f44-403f-a51e-46e0d7db82b8}</destination>
 		</relationship>
 	</object>
+	<object class="TempoMarker" id="{4ed3a54e-c3da-4854-b080-241b77e05fad}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="tempo">
+			<value>60</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{0ce76987-f731-4283-9356-72f32948f176}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{aed0087c-fbf5-47f7-ade2-6ab6f2870794}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{1b4934ab-7f2a-4d55-ac08-4eb427710378}">
 		<relationship name="effects">
 			<destination>{c4e6d3a0-9be7-475b-bbe8-5e12e9ac8414}</destination>
@@ -102,6 +138,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{b2ca24d0-ddf3-4acb-879e-324c4d602b3b}" />
 	<object class="MixerBusFader" id="{efc1264a-aee4-409f-a83f-68bd1fe7b6a7}" />
+	<object class="SingleSound" id="{bc9ba21d-b193-4f39-b9ba-35a9cd23b60d}">
+		<property name="startOffset">
+			<value>20.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{f081d2b1-ab01-4a74-82f5-60087a18c025}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{0dc09935-8d8e-4443-9791-1347f487ad5e}">
+		<property name="startOffset">
+			<value>9</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{e8b7c5d0-9892-4f1c-a77d-8cd945605bc7}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{55ac0fc9-e3a5-4091-ac1c-b48e6953c19c}">
 		<relationship name="effects">
 			<destination>{db66a0dd-32ca-47d0-9fe2-7161764c7181}</destination>

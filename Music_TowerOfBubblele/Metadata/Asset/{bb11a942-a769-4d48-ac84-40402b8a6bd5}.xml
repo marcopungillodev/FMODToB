@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{bb11a942-a769-4d48-ac84-40402b8a6bd5}">
+		<property name="assetPath">
+			<value>SFX/Bloop/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d7cb8a1c-f4b3-49c0-af81-7104ec77e5b8}</destination>
+		</relationship>
+	</object>
+</objects>
