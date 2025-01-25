@@ -21,8 +21,6 @@
 		</relationship>
 		<relationship name="snapshotProperties">
 			<destination>{4c460b4c-2c33-4bb1-98a2-258145f96788}</destination>
-			<destination>{8270bfc1-8335-4a00-84f1-1db4175e5932}</destination>
-			<destination>{a1c72f11-08c3-49e3-ad8f-556e0a81f556}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{82293314-4b36-4d69-a097-f3577ee3bfb0}</destination>
@@ -41,28 +39,6 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{ba083911-6c0d-4e5a-8d83-6de2cc8937c5}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{8270bfc1-8335-4a00-84f1-1db4175e5932}">
-		<property name="propertyName">
-			<value>pitch</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{0c3537e4-1baf-422c-8f26-3ec1c6bbd16a}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{a1c72f11-08c3-49e3-ad8f-556e0a81f556}">
-		<property name="propertyName">
-			<value>overlap</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{0c3537e4-1baf-422c-8f26-3ec1c6bbd16a}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{82293314-4b36-4d69-a097-f3577ee3bfb0}">
